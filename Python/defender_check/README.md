@@ -1,15 +1,22 @@
-#defender_check.py
+# defender_check.py
 A simple script to use on Windows to run on-demand scans using the AMSI  
 API. This script only works on Windows due to the nature of the AMSI API.
 
-##Virtual Environment Configuration
+## Virtual Environment Configuration
+1. Setup a virtual environment for dependencies
 ```
 python -m venv \path\to\new\virtual\environment\defender_check
+```
+2. Activate virtual environment
+```
 \path\to\new\virtual\environment\defender_check\scripts\activate.bat
+```
+3. Install requirements from requirements.txt within the virtual environment
+```
 python -m pip install -r requirements.txt
 ```
 
-##Usage and Help Menu
+## Usage and Help Menu
 ```
 usage: defender_check.py [options]
 
